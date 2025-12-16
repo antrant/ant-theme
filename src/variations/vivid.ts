@@ -54,7 +54,7 @@ export const vividLight: Theme = {
   },
   levels: vividLevels,
   ui: makeMainColorsLight({
-    base: "#f4f4f4",
+    base: "#ffffff",
     primary: "#7e7e7e",
   }),
 };
