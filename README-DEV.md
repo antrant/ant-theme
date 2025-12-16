@@ -1,6 +1,6 @@
-# Bearded Theme - Developer Guide
+# Ant Theme - Developer Guide
 
-This document provides the necessary instructions for setting up, developing, and publishing the Bearded Theme VS Code extension.
+This document provides the necessary instructions for setting up, developing, and publishing the Ant Theme VS Code extension.
 
 ## Initial Setup
 

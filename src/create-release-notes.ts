@@ -63,7 +63,7 @@ const createReleaseNotes = (): void => {
             let issueAuthor = "";
             try {
               // Use curl to get issue info (with a timeout to avoid hanging)
-              const curlCommand = `curl -s -m 5 -H "User-Agent: BeardedTheme-ReleaseNotes-Script" https://api.github.com/repos/BeardedBear/bearded-theme/issues/${issueNumber}`;
+              const curlCommand = `curl -s -m 5 -H "User-Agent: AntTheme-ReleaseNotes-Script" https://api.github.com/repos/antrant/ant-theme/issues/${issueNumber}`;
               const issueData = JSON.parse(execSync(curlCommand).toString());
 
               if (issueData && issueData.user && issueData.user.login) {
@@ -78,7 +78,7 @@ const createReleaseNotes = (): void => {
             }
 
             // Create GitHub issue link with author attribution if available
-            const issueLink = `[${match}${issueAuthor}](https://github.com/BeardedBear/bearded-theme/issues/${issueNumber})`;
+            const issueLink = `[${match}${issueAuthor}](https://github.com/antrant/ant-theme/issues/${issueNumber})`;
 
             // Replace the #XXX with the link
             updatedCommit = updatedCommit.replace(match, issueLink);
