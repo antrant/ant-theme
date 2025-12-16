@@ -126,14 +126,14 @@ async function makeTheme(
   const themeTemplate = {
     $schema: "vscode://schemas/color-theme",
     colors: ui(theme, hc, light, untindedSelection, desaturateInputs),
-    name: `BeardedTheme ${name.charAt(0).toUpperCase()}${name.slice(1)}`,
+    name: `AntTheme ${name.charAt(0).toUpperCase()}${name.slice(1)}`,
     semanticHighlighting: true,
     semanticTokenColors: semanticTokens(theme),
     tokenColors: syntax(theme, hc, light),
   };
 
   writeFile(
-    `themes/bearded-theme-${name}.json`,
+    `themes/ant-theme-${name}.json`,
     JSON.stringify(themeTemplate),
     (err) => {
       if (err) console.log("error", err);
@@ -147,7 +147,7 @@ async function makeTheme(
     .join(" ");
 
   bfile.push({
-    name: `Bearded Theme ${themeName}`,
+    name: `Ant Theme ${themeName}`,
     slug: name.split(" ").join("-").toLowerCase(),
     theme,
     uiTheme: "vs-dark",

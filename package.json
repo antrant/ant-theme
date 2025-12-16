@@ -1,7 +1,7 @@
 {
-  "name": "beardedtheme",
-  "displayName": "Bearded Theme",
-  "description": "The theme with a long beard.",
+  "name": "ant-theme",
+  "displayName": "Ant Theme",
+  "description": "A beautiful VS Code theme.",
   "publisher": "BeardedBear",
   "version": "10.1.0",
   "engines": {
@@ -31,17 +31,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BeardedBear/bearded-theme"
+    "url": "https://github.com/BeardedBear/ant-theme"
   },
   "bugs": {
-    "url": "https://github.com/BeardedBear/bearded-theme/issues",
+    "url": "https://github.com/BeardedBear/ant-theme/issues",
     "email": "germain.poirrier@gmail.com"
   },
-  "homepage": "https://github.com/BeardedBear/bearded-theme",
+  "homepage": "https://github.com/BeardedBear/ant-theme",
   "keywords": [
-    "bearded",
+    "ant",
     "theme",
-    "bear",
     "dark",
     "solarized",
     "arc",
