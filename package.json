@@ -3,7 +3,7 @@
   "displayName": "Ant Theme",
   "description": "A beautiful VS Code theme.",
   "publisher": "antrant",
-  "version": "10.2.0",
+  "version": "10.2.1",
   "engines": {
     "vscode": "^1.69.0"
   },
